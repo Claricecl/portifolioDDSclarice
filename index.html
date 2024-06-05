@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #c395d8;
+            color: #000000
+        }
+        header {
+            background: #a372b9;
+            color: #ffffff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #fcfcda;
+            color: #fff;
+            padding: 0.5rem 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+             display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a:hover {
+            color: #fff;
+           
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+            
+        }
+        section {
+            margin: 2rem 0;
+        }
+        .card {
+            background: #f4f4f4;
+            padding: 1rem;
+             margin: 1rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+            .card:hover {
+            transform: translateY(-5px);
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        h3 {
+            color: #555;
+            margin-bottom: 0.5rem;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        #contato{
+            margin-bottom: 10em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <div class="card">
+                <p>Olá! Eu sou Clarice, um quase desenvolvedor web  que tenta criar soluções inovadoras e eficientes. Tenho experiência em [front-end] e adoro trabalhar em equipe em projetos.</p>
+            </div>
+        </section>
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="card">
+                <h3>CALCULADORA</h3>
+                <p>calcula de soma.</p>
+            </div>
+            <div class="card">
+                <h3>MENU</h3>
+                <p>menu de caixa eletrônico.</p>
+            </div>
+            <!-- Adicione mais projetos conforme necessário -->
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="card">
+                <ul>
+                    <li>Criatividade</li>
+                    <li>Colaboração</li>
+                    <li>Adaptação</li>
+                    <!-- Adicione mais habilidades conforme necessário -->
+                </ul>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <div class="card">
+                <p>Entre em contato comigo através do email: <a href="mailto:seuemail@example.com">claricesantos2497@gmail.com</a></p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Clarice. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
